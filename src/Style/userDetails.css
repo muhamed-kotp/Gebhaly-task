@@ -1,0 +1,19 @@
+.user-details-barent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 111px;
+  background-color: #861212;
+  color: white;
+  padding: 20px;
+  margin-top: -40px;
+}

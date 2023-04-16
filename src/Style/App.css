@@ -1,0 +1,94 @@
+.sideBar {
+  height: 100vh !important;
+  font-size: 22px !important;
+  background-color: #56203a !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 20% !important ;
+  color: white;
+  align-items: center;
+}
+:root {
+  overflow-x: hidden;
+}
+.col-10 {
+  background-color: rgb(223, 223, 223);
+  width: 77% !important;
+  margin: auto;
+}
+
+@media screen and (min-width: 991px) {
+  .sideBar {
+    height: 100vh !important;
+    font-size: 22px !important;
+    background-color: #56203a !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 18% !important ;
+    color: white;
+    align-items: center;
+  }
+  .col-10 {
+    background-color: rgb(223, 223, 223);
+    width: 81% !important;
+  }
+}
+
+/* @media screen and (min-width: 576px) and (max-width: 767px) {
+  .sideBar {
+    height: 100vh !important;
+    font-size: 20px !important;
+    background-color: #56203a !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 29% !important ;
+    color: white;
+    align-items: center;
+  }
+  .col-10 {
+    background-color: rgb(223, 223, 223);
+    width: 71% !important;
+    margin: auto;
+  }
+} */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .sideBar {
+    height: 8vh !important;
+    font-size: 20px !important;
+    background-color: #56203a !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100% !important ;
+    color: white;
+    align-items: center;
+  }
+  .col-10 {
+    background-color: rgb(223, 223, 223);
+    width: 90% !important;
+    margin: auto !important;
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sideBar {
+    height: 10vh !important;
+    font-size: 16px !important;
+    background-color: #56203a !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100% !important ;
+    color: white;
+    align-items: center;
+  }
+  .col-10 {
+    background-color: rgb(223, 223, 223);
+    width: 99% !important;
+    margin-right: 20px !important;
+    padding: 0 !important;
+  }
+}

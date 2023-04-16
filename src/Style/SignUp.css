@@ -1,0 +1,80 @@
+.form-label {
+  font-weight: 800 !important;
+}
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+.signup-FG {
+  margin-bottom: 5px !important;
+}
+.lableError {
+  color: red !important;
+}
+.allready-Text {
+  color: rgb(6, 21, 228) !important;
+  opacity: 1;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  margin-left: 5px;
+}
+
+.allready-Text :hover {
+  color: rgb(58, 123, 207) !important;
+}
+.allready {
+  color: red !important;
+}
+.d-n {
+  display: none !important;
+}
+.signUp-btn{
+  align-self: center;
+  width: 150px !important;
+  font-weight: 800 !important;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .form-cont {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .form-cont {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-cont {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+  }
+}

@@ -1,0 +1,171 @@
+.Nav-fother {
+  display: flex;
+
+  height: 8vh !important;
+  justify-content: flex-start;
+}
+.first-container {
+  width: 40% !important;
+  display: flex !important;
+  justify-content: flex-start;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+}
+.Lusion {
+  color: rgb(190, 0, 0) !important;
+  margin-left: 50px;
+  font-weight: 900;
+  font-family: "Rubik Gemstones", cursive;
+  margin-top: 10px;
+}
+.sec-container {
+  justify-content: start !important;
+  width: 60% !important;
+}
+.nav-cont {
+  margin-left: 50px;
+  border: none !important;
+  padding: 0 !important;
+  align-items: center;
+}
+.Nav-2line {
+  background-color: white !important;
+  border: none !important;
+  justify-content: end !important;
+  display: inline-block;
+}
+a {
+  text-decoration: none !important;
+}
+.nav-container {
+  padding: 0 !important;
+}
+.Links {
+  color: rgb(0, 0, 0) !important;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+
+  font-weight: 400;
+  font-size: 17px !important;
+}
+.Nav-btns-container {
+  margin-right: 30px;
+}
+.Links:hover {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(190, 0, 0) !important;
+}
+.navbar-expand {
+  /* background-color: rgb(245 175 156) !important; */
+  background-color: rgb(255, 255, 255) !important;
+}
+.Links::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(190, 0, 0);
+  transform-origin: bottom right;
+  transition: 0.25s ease-out;
+}
+
+.Links:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* .hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+} */
+
+.Cart-logo {
+  font-size: 30px;
+  color: rgb(0, 0, 0) !important;
+}
+.shopCart-logo {
+  display: inline-block;
+  position: relative;
+}
+.shopCart-logo::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(190, 0, 0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  z-index: 10;
+}
+.shopCart-logo:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.offcanvas {
+  width: 250px !important;
+}
+/* .shopCart-logo:hover {
+  font-size: 35px;
+  font-weight: 800;
+} */
+.offcanvas-title {
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  font-family: "Rubik Gemstones", cursive;
+}
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ShoppingCarD-Btn {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: white !important;
+
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 17px !important;
+  margin-top: -5px;
+}
+.welcome {
+  opacity: 1 !important;
+  font-size: 25px !important;
+  font-weight: 800;
+  color: rgb(104, 0, 0) !important;
+  font-family: "Rubik Gemstones", cursive;
+}
+.signout {
+  background-color: rgb(255, 255, 255) !important;
+  border: none !important;
+  border-color: rgb(255, 255, 255) !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .Links {
+    margin-bottom: 30px !important;
+    width: 100% !important;
+    font-size: 30px !important;
+    font-weight: 500;
+  }
+  .shopCart-logo {
+    margin-bottom: 30px !important;
+  }
+  .nav-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+}

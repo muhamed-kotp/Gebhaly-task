@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  color: #520946 !important;
+}
+.fullBage {
+  background-color: rgb(76 19 73);
+}
+
+.shop-img1 {
+  height: 100vh !important;
+  margin-bottom: 40px;
+}
+.card-barent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #c3c3c3;
+  justify-content: space-between !important;
+  padding-top: 50px;
+}
+.card-contaner {
+  margin-bottom: 50px;
+  height: 60vh !important;
+  border: none !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+.shop-card-img {
+  width: 300px !important;
+  height: 46vh !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #520946 !important;
+  border-color: transparent !important;
+}
+.shop-card-Body {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efb87c !important;
+  height: 14vh;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.shop-card-text-Container {
+  width: 100% !important;
+}
+
+.SC-Name {
+  font-size: 22px;
+  opacity: 0.5Q;
+  font-weight: 900;
+  color: rgb(92, 1, 43);
+
+  margin-bottom: 2px !important;
+  margin-top: 7px;
+  margin-left: 40px;
+  font-family: "Rubik Gemstones", cursive;
+}
+.SC-count {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgb(92, 1, 43);
+  opacity: 0.5;
+  margin-bottom: 0 !important;
+  margin-left: 10px;
+}
+.SC-dollar {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  margin-bottom: 2px !important;
+  margin-left: 20px !important;
+}
+.ds-none {
+  display: none !important;
+}
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 20% !important;
+  height: 90%;
+  margin-right: 10px;
+}
+
+.shop-shopCart-link {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.shop-shopCart-logo {
+  font-size: 30px;
+  color: #efb87c;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin-top: -30px;
+  border-radius: 5px;
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.shop-shopCart-logo:hover {
+  font-size: 36px;
+  color: rgb(92, 1, 43);
+}
+
+.goto-home-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.goto-home {
+  font-weight: 600 !important;
+  border: 2px solid rgb(92, 1, 43) !important;
+  padding: 7px !important;
+  background-color: rgb(255 230 219) !important;
+  margin-bottom: 50px !important;
+  width: 200px;
+}
+.goto-home-link1 {
+  color: rgb(92, 1, 43);
+  font-weight: 800;
+}
+.goto-home:hover {
+  color: white !important;
+  background-color: rgb(92, 1, 43) !important;
+}
+.goto-home:hover .goto-home-link1 {
+  color: white !important;
+  background-color: rgb(92, 1, 43) !important;
+}
+.goto-home-link1:hover {
+  color: white !important;
+  background-color: rgb(92, 1, 43);
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .card-barent {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+  .card-contaner {
+    padding: 0 !important;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card-barent {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+  .shop-card-Body {
+    height: 14vh !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card-contaner {
+    width: 100% !important;
+  }
+  .card-barent {
+    width: 100% !important;
+    justify-content: center;
+  }
+  .shop-card-img {
+    width: 100% !important;
+  }
+  .shopCard-cont {
+    width: 90%;
+    margin: auto;
+  }
+  .SC-Name {
+    font-size: 19px;
+  }
+  .SC-dollar {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .card-barent {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+  .shopCard-cont {
+    width: 45%;
+  }
+  .shop-card-img {
+    width: 100% !important;
+  }
+}

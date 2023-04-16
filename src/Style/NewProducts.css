@@ -1,0 +1,24 @@
+.new-product-form {
+  height: 100vh;
+}
+
+.new-product-name-G {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px !important;
+}
+.new-product-price-G {
+  width: 80%;
+  margin: auto;
+}
+.new-product-items-G {
+  width: 80%;
+  margin: auto;
+}
+.new-user-submit-btn {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}

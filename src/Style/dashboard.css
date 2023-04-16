@@ -1,0 +1,91 @@
+.dash-container {
+  display: flex;
+  margin-top: 100px !important;
+  justify-content: space-around;
+}
+.dash-header {
+  text-align: center;
+}
+/* .dash-cardbody{
+    display: flex;
+    flex-direction: column;
+    justify-items: center !important;
+    justify-content: center;
+} */
+.dash-title {
+  text-align: center;
+}
+.dash-text {
+  text-align: center;
+}
+.dash-btn {
+  display: flex;
+  justify-content: center;
+}
+.nameStyle {
+  font-weight: 900 !important;
+  color: brown;
+  font-family: "Rubik Gemstones", cursive;
+  font-size: 20px;
+}
+.dash-text-btn {
+  display: flex;
+  justify-content: center;
+}
+.product-view {
+  margin-left: 10px !important;
+}
+.fullCard {
+  width: 350px;
+  margin-bottom: 50px;
+  
+}
+
+  
+@media screen and (min-width: 991px) {
+
+  .fullCard {
+    width:400px !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .dash-container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fullCard {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .dash-container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+  }
+  .fullCard {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .row{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .sideBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

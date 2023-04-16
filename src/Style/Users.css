@@ -1,0 +1,201 @@
+.head-id {
+  text-align: center;
+}
+.head-title {
+  margin-left: 20px !important;
+  text-align: center;
+}
+.users-id-col {
+  text-align: center;
+  font-weight: 600;
+}
+.users-name-col {
+  text-align: center;
+  font-weight: 600;
+}
+.users-age-col {
+  text-align: center;
+  font-weight: 600;
+}
+.users-name-col {
+  text-align: center;
+  font-weight: 600;
+}
+.users-mail-col {
+  text-align: center;
+  font-weight: 600;
+}
+.users-role-col {
+  text-align: center;
+  font-weight: 600;
+}
+.add {
+  display: flex;
+  width: 170px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center !important;
+}
+
+.users-admin-edit-btn {
+  width: 145px !important;
+  font-weight: 700 !important;
+}
+.users-btns-cont {
+  display: flex;
+  justify-content: space-evenly !important;
+  width: 50%;
+}
+.users-delte-btn {
+  padding: 0 !important;
+  width: 0;
+  margin-top: -10px !important;
+  margin-right: 2px !important;
+}
+.Role-edit-col {
+  display: flex;
+  width: 100% !important;
+  justify-content: center;
+}
+
+.magnify {
+  color: #00ff43;
+}
+.pin {
+  color: yellow;
+}
+.basket {
+  color: red;
+}
+.users-control-col {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100% !important;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .add {
+    margin-left: 30px;
+  }
+  .whole-users-table {
+    width: 90% !important;
+    margin: auto;
+  }
+  .users-id-col {
+    width: 0 !important;
+  }
+  .users-name-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    font-size: 14px !important;
+  }
+  .users-mail-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    font-size: 14px !important;
+  }
+  .head-title-age {
+    display: none;
+  }
+  .users-age-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    display: none;
+  }
+
+  .users-admin-edit-btn {
+    width: 132px !important;
+    padding: 2px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+  }
+
+  .users-role-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    font-size: 14px !important;
+  }
+  .Role-edit-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    display: table-cell;
+  }
+
+  .users-delte-btn {
+    width: 15px !important;
+    margin-top: 1px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .add {
+    margin-left: 30px;
+  }
+  .whole-users-table {
+    width: 90% !important;
+    margin: auto;
+  }
+  .head-id {
+    font-size: 12px !important;
+  }
+  .head-title {
+    font-size: 12px !important;
+  }
+  .users-id-col {
+    width: 0 !important;
+    font-size: 11px;
+  }
+
+  .head-title-age {
+    display: none;
+  }
+  .users-age-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    display: none;
+  }
+  .users-name-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    display: none;
+  }
+  .users-mail-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    font-size: 11px !important;
+  }
+  .users-admin-edit-btn {
+    width: 60px !important;
+    padding: 2px !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+  }
+
+  .users-role-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    font-size: 12px !important;
+  }
+  .Role-edit-col {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    width: 0% !important;
+    display: table-cell;
+  }
+
+  .users-delte-btn {
+    margin-top: -10px !important;
+    width: 15px !important;
+  }
+  .head-title-name {
+    display: none;
+  }
+}

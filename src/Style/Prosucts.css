@@ -1,0 +1,25 @@
+.items-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px !important;
+}
+.id-col {
+  text-align: center;
+  font-weight: 800;
+}
+.head-id {
+  text-align: center;
+}
+.head-title {
+  margin-left: 20px !important;
+}
+.add {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+/* .btn {
+  background-color: rgb(155 37 83) !important;
+  font-weight: 700 !important;
+  border: none !important;
+} */

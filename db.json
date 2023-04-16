@@ -1,0 +1,149 @@
+{
+  "products": [
+    {
+      "name": "Hood",
+      "img": "https://www.linkpicture.com/q/shopC1.jpg",
+      "price": 300,
+      "count": 8,
+      "id": 1,
+      "pusrches": 1
+    },
+    {
+      "id": 2,
+      "name": "Shirt",
+      "price": 220,
+      "count": 18,
+      "img": "https://www.linkpicture.com/q/shopC2.jpg",
+      "pusrches": 1
+    },
+    {
+      "name": "Shirt",
+      "price": "170",
+      "count": 6,
+      "img": "https://www.linkpicture.com/q/shopC3.jpg",
+      "id": 3,
+      "pusrches": 1
+    },
+    {
+      "id": 4,
+      "name": "Hood",
+      "price": 120,
+      "count": 12,
+      "img": "https://www.linkpicture.com/q/shopC4.jpg",
+      "pusrches": 1
+    },
+    {
+      "id": 5,
+      "name": "Hood",
+      "price": 120,
+      "count": 15,
+      "img": "https://www.linkpicture.com/q/shopC5.jpg",
+      "pusrches": 1
+    },
+    {
+      "id": 6,
+      "name": "Hood",
+      "price": 180,
+      "count": 3,
+      "img": "https://www.linkpicture.com/q/shopC6.jpg",
+      "pusrches": 1
+    },
+    {
+      "id": 7,
+      "name": "Jeans",
+      "price": 250,
+      "count": 16,
+      "img": "https://www.linkpicture.com/q/shopC7.jpg",
+      "pusrches": 1
+    },
+    {
+      "id": 8,
+      "name": "Jeans",
+      "price": 250,
+      "count": 15,
+      "img": "https://www.linkpicture.com/q/shopC8.jpg",
+      "pusrches": 1
+    },
+    {
+      "id": 9,
+      "name": "Clothing",
+      "price": 350,
+      "count": 9,
+      "img": "https://www.linkpicture.com/q/shopC1.jpg",
+      "pusrches": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "Kotp",
+      "age": 27,
+      "mail": "mohamed.kotp@gmail.com",
+      "pass": "12345",
+      "role": "admin",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "Omar",
+      "age": 23,
+      "mail": "Omar2025@gmail.com",
+      "pass": "12345",
+      "role": "member",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "name": "Mohsen",
+      "age": 20,
+      "mail": "Mohsen142434@gmail.com",
+      "pass": "12345",
+      "role": "member",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "name": "Shaymaa",
+      "age": 20,
+      "mail": "shaymaa@gmail.com",
+      "pass": "12345",
+      "role": "member",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "name": "Asmaa",
+      "age": 39,
+      "mail": "asmaa2020@gmail.com",
+      "pass": "12345",
+      "role": "member",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "name": "Youmna",
+      "age": "5",
+      "role": "member",
+      "mail": "youmna.amro2017@gmail.com",
+      "pass": "12345",
+      "gender": "femail",
+      "id": 6
+    },
+    {
+      "name": "Mohamed Hamdy",
+      "age": "28",
+      "role": "member",
+      "mail": "mohamed.kotpp@gmail.com",
+      "pass": "2101",
+      "gender": "male",
+      "id": 7
+    }
+  ],
+  "signinUser": [
+    {
+      "name": "Kotp",
+      "mail": "mohamed.kotp@gmail.com",
+      "pass": "12345",
+      "id": 1
+    }
+  ]
+}

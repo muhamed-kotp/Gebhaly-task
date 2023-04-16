@@ -1,0 +1,13 @@
+Products Info : 
+1- productsNames : Quilted Gilet With Hood, Shirt , Jeans, Hood, Clothing, Bag Brand, Accessories, Shoes
+1-1 Clothing Items : 5
+1-2 Bag Brand items : 20
+1-3 Accessories items : 6
+1-4 Shoes items : 8
+2- prices : from 100 $ to 400 $
+
+noted that : 
+1- you can make any numbers of state even one or million related to your brain design for components.
+2- the shop page containes only 9 products
+3- you can change the design color related to your view
+4- but the main functions shall be the same with the same design idea
